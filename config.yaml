@@ -1,0 +1,7 @@
+applications:
+  - name: detection_service
+    route_prefix: /detect
+    import_path: ray_app:detection_app
+  - name: recognition_service
+    route_prefix: /recognize
+    import_path: ray_app:recognition_app
